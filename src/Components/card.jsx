@@ -5,7 +5,7 @@ const card = ({user}) => {
     <div className='text-black '>
       <div
         className="
-      h-140   bg-cover bg-center bg-no-repeat border-6 rounded-4xl border-white flex  overflow-hidden  items-end"
+      h-screen lg:h-140   bg-cover bg-center bg-no-repeat border-6 lg:rounded-4xl lg::border-white flex  overflow-hidden  items-end"
        style={{ backgroundImage: `url(${user.image})` }}
       >
         <div className="flex flex-col w-full bg-linear-to-t from-gray-300/50 via-gray-300/25 to-transparent gap-4 backdrop-blur-md p-4">

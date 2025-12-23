@@ -32,7 +32,7 @@ const App = () => {
 
 
   return (
-    <div className='bg-black w-screen h-screen grid grid-cols-4 gap-4 p-8'>
+    <div className='bg-black w-screen h-screen grid  grid-cols-1 lg:grid-cols-4 gap-4 lg:p-8'>
       {profiles.map((elem) => (
         <Card user={elem} />
       ))}
